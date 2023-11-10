@@ -141,11 +141,18 @@
     {/each}
   </div>
 
-  <div class="absolute bottom-0 w-full flex py-4 items-center justify-center">
+  <div
+    class="absolute bottom-0 w-full flex py-4 items-center justify-center gap-x-8"
+  >
     <a
       href="https://twitter.com/benjamin41902"
       target="_blank"
       class="font-light hover:underline">@benjamin41902</a
+    >
+    <a
+      href="https://github.com/bmdavis419/svelte-five-demo"
+      target="_blank"
+      class="font-light hover:underline">project repo</a
     >
   </div>
 </div>
