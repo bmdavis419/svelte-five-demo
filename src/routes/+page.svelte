@@ -75,7 +75,7 @@
 <div
   class="bg-gradient-to-br from-gray-950 via-blue-700 to-orange-600 text-slate-100 w-full h-screen flex flex-row items-center justify-center gap-x-12"
 >
-  <div class="bg-white bg-opacity-20 backdrop-blur-lg p-4 rounded-md w-1/4">
+  <div class="bg-white bg-opacity-20 backdrop-blur-lg p-4 rounded-xl w-1/4">
     <div class="flex flex-col items-center gap-y-1 pb-4">
       <h2 class="text-3xl font-bold">Basic Todo App</h2>
       <h4 class="text-sm font-light italic">
