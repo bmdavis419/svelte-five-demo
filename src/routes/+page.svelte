@@ -21,11 +21,7 @@
   let nTodoDescription = $state("");
 
   const addTodo = () => {
-    const copy = todos;
-
-    copy.push({ title: nTodoTitle, description: nTodoDescription });
-
-    todos = copy;
+    todos = [...todos, { title: nTodoTitle, description: nTodoDescription }];
 
     nTodoTitle = "";
     nTodoDescription = "";
